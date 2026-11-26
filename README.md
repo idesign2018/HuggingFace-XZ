@@ -13,13 +13,13 @@
 
 ## 1. 运行环境
 
-| 项目 | 要求 |
-|---|---|
-| 系统 | Windows 10 / 11 |
-| Python | 3.8 及以上（推荐直接用 Anaconda 环境里那个，实测 3.14 正常） |
-| 必备包 | `huggingface_hub`（`pip install huggingface_hub`） |
-| 可选包 | `hf_xet`（勾选"hf_xet 高性能模式"时需要，多连接并发、速度更快但更吃 CPU 和内存） |
-| 可选窗口 | `pywebview`（装了就有真正的原生窗口；没装则用 Edge 的"应用模式"窗口） |
+| 项目     | 要求                                                                                |
+| -------- | ----------------------------------------------------------------------------------- |
+| 系统     | Windows 10 / 11                                                                     |
+| Python   | 3.8 及以上（推荐直接用 Anaconda 环境里那个，实测 3.14 正常）                        |
+| 必备包   | `huggingface_hub`（`pip install huggingface_hub`）                              |
+| 可选包   | `hf_xet`（勾选"hf_xet 高性能模式"时需要，多连接并发、速度更快但更吃 CPU 和内存）  |
+| 可选窗口 | `pywebview`（装了就有真正的原生窗口；没装则用 Edge 的"应用模式"窗口）             |
 | 可选程序 | IDM（`IDMan.exe`）、aria2（`aria2c.exe`）——只影响"推送到 IDM / 用 aria2 下载" |
 
 程序默认用 Anaconda 里的 `pythonw.exe` 启动（`C:\Users\<你>\anaconda3\pythonw.exe`），所以 `huggingface_hub` 要装在**这个**环境里。
@@ -67,16 +67,16 @@ python app.py --check      :: 只自检，不开窗口
 
 左边填写参数，右边是进度和历史。
 
-| 字段 | 说明 |
-|---|---|
-| 仓库 ID | `用户名/仓库名`，也可以直接粘贴网页地址（`https://huggingface.co/用户/仓库/...`） |
-| 文件名 / 通配符 | 可选。如 `*.safetensors`、`*.gguf`，留空 = 下载仓库里的全部文件 |
-| 保存路径 | 点"浏览"选择；下载时会自动建文件夹 |
-| HF Token | 受限/私有仓库必填；和批量页共用同一个 Token |
-| 下载真实文件（不使用软链接） | 勾选后直接写真实文件，不建指向缓存目录的软链接，方便移动和备份（推荐） |
-| hf_xet 高性能模式 | 需要装 `hf_xet`；速度快但 CPU / 内存占用明显更高 |
-| 同时下载 | 1~16 个文件同时下载，按网络和硬盘情况调；总连接数 = 同时下载 × 每文件连接 |
-| 每文件连接 | 1~16，**默认 16（最大）**。≥32MB 的文件会自动切成很多小块、同时开这么多条连接下载；某一条连接卡住（服务器不发数据）只影响它自己那一块，20 秒收不到数据就自动断开、从断点重连，整个文件不会停在 0 B/s。填 1 = 只用单连接 |
+| 字段                         | 说明                                                                                                                                                                                                                           |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 仓库 ID                      | `用户名/仓库名`，也可以直接粘贴网页地址（`https://huggingface.co/用户/仓库/...`）                                                                                                                                          |
+| 文件名 / 通配符              | 可选。如 `*.safetensors`、`*.gguf`，留空 = 下载仓库里的全部文件                                                                                                                                                            |
+| 保存路径                     | 点"浏览"选择；下载时会自动建文件夹                                                                                                                                                                                             |
+| HF Token                     | 受限/私有仓库必填；和批量页共用同一个 Token                                                                                                                                                                                    |
+| 下载真实文件（不使用软链接） | 勾选后直接写真实文件，不建指向缓存目录的软链接，方便移动和备份（推荐）                                                                                                                                                         |
+| hf_xet 高性能模式            | 需要装 `hf_xet`；速度快但 CPU / 内存占用明显更高                                                                                                                                                                             |
+| 同时下载                     | 1~16 个文件同时下载，按网络和硬盘情况调；总连接数 = 同时下载 × 每文件连接                                                                                                                                                     |
+| 每文件连接                   | 1~16，**默认 16（最大）**。≥32MB 的文件会自动切成很多小块、同时开这么多条连接下载；某一条连接卡住（服务器不发数据）只影响它自己那一块，20 秒收不到数据就自动断开、从断点重连，整个文件不会停在 0 B/s。填 1 = 只用单连接 |
 
 > **准备时间**：每个文件开始前只需要约 1 秒（向服务器确认文件大小和真正的下载地址），和文件大小无关。临时文件 `.hfdpart` 建成**稀疏文件**：大小一步定好，但不往硬盘写 0（以前要先把整个文件写满 0，20 GB 的文件白等 100 秒）；没写到的地方不占硬盘空间。硬盘不支持稀疏文件时（exFAT / FAT32 / 部分网络盘）自动改成**边下边长**，速度一样。开始前会检查剩余空间，不够就直接提示；"准备中"点停止也能马上停。
 >
@@ -104,15 +104,15 @@ python app.py --check      :: 只自检，不开窗口
 
 **筛选**：所有条件写在一个框里，用空格分隔。同一类条件之间是"或"，不同类之间是"且"。
 
-| 想筛选 | 写法 |
-|---|---|
-| 文件后缀 | `.safetensors` `*.gguf` `ext:json` |
-| 文件名包含 | `fp16` `lora` `*q4_k*`（支持通配符 `*` `?`） |
-| 路径 / 文件夹包含 | `dir:vae` `path:unet` `text_encoder/`（带 `/` 的词按路径处理） |
-| 文件大小 | `>1GB` `<500MB` `>=2G` `100MB~2GB`；只写数字（如 `10gb`、`500`）按 MB 计算 |
-| 排除 | `-test` `-.md` `!*demo*`（前面加 `-` 或 `!`） |
-| 词里带空格 | `"my model"` |
-| 中文关键字 | `后缀:` `文件名:` `路径:` `文件夹:` `大小:` `排除:` |
+| 想筛选            | 写法                                                                                   |
+| ----------------- | -------------------------------------------------------------------------------------- |
+| 文件后缀          | `.safetensors` `*.gguf` `ext:json`                                               |
+| 文件名包含        | `fp16` `lora` `*q4_k*`（支持通配符 `*` `?`）                                 |
+| 路径 / 文件夹包含 | `dir:vae` `path:unet` `text_encoder/`（带 `/` 的词按路径处理）                 |
+| 文件大小          | `>1GB` `<500MB` `>=2G` `100MB~2GB`；只写数字（如 `10gb`、`500`）按 MB 计算 |
+| 排除              | `-test` `-.md` `!*demo*`（前面加 `-` 或 `!`）                                |
+| 词里带空格        | `"my model"`                                                                         |
+| 中文关键字        | `后缀:` `文件名:` `路径:` `文件夹:` `大小:` `排除:`                        |
 
 右上角"常用类型"里有现成预设（模型权重、只要 safetensors、GGUF、配置文件、说明文档、图片、压缩包、数据集）。三个按钮对公司条件做动作：**只勾选符合的 / 追加勾选 / 取消勾选符合的**。打开"实时勾选"后，输入停 0.4 秒就自动只勾选符合条件的（清空条件 = 全部勾选）。
 
@@ -137,14 +137,14 @@ python app.py --check      :: 只自检，不开窗口
 
 这些都在**程序目录**（`F:\HF下载`）下，和旧版 tkinter 程序共用：
 
-| 文件 | 作用 |
-|---|---|
-| `hf_downloader_config.json` | 所有设置（Token、保存路径、下载源、筛选条件、aria2 参数、仓库列表……） |
-| `hf_download_history.json` | 常规下载的历史记录（列表里的那些行） |
-| `启动日志.log` | 每次启动的过程记录：用的哪个解释器、有没有装 huggingface_hub、端口、窗口、网页是否连上、出错时的完整堆栈 |
-| `python_path.txt` | 可选。`启动.bat` 找不到 Python 时，把 `pythonw.exe` 完整路径写在第一行 |
-| `关于\` | "关于作者""关于软件"里的图文内容：`关于作者.html`、`关于软件.html`（图片也放这个文件夹，直接编辑即可生效） |
-| `备份\` | 改动前的备份（含 `webui_<时间>\` 快照） |
+| 文件                          | 作用                                                                                                           |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `hf_downloader_config.json` | 所有设置（Token、保存路径、下载源、筛选条件、aria2 参数、仓库列表……）                                        |
+| `hf_download_history.json`  | 常规下载的历史记录（列表里的那些行）                                                                           |
+| `启动日志.log`              | 每次启动的过程记录：用的哪个解释器、有没有装 huggingface_hub、端口、窗口、网页是否连上、出错时的完整堆栈       |
+| `python_path.txt`           | 可选。`启动.bat` 找不到 Python 时，把 `pythonw.exe` 完整路径写在第一行                                     |
+| `关于\`                     | "关于作者""关于软件"里的图文内容：`关于作者.html`、`关于软件.html`（图片也放这个文件夹，直接编辑即可生效） |
+| `备份\`                     | 改动前的备份（含 `webui_<时间>\` 快照）                                                                      |
 
 程序只监听 `127.0.0.1`（本机），端口每次随机，并且每个接口请求都要求带一个本次运行随机生成的密钥，别的网页调用不了你的本地接口。
 
@@ -178,6 +178,7 @@ webui\                    ← 程序本体
 受限（gated）或私有仓库必须填 Token：先在 huggingface.co 上同意该仓库的协议，再到"常规下载"页填 Token（两页共用）。建议在官网建一个**只读**的 Token。
 
 程序只在需要时才发 Token：
+
 - **国内镜像**：一律先不带，服务器回 401 / 403 才带上 Token 重试。Token 会经过 `hf-mirror.com`，由镜像站转交官方验证，可以正常使用；
 - **官方源**：只有已知是受限 / 私有仓库（批量页获取列表时就知道）才一开始就带，其余同样是 401 / 403 时才带；
 - **推送到 IDM / 用 aria2 下载**：它们没法"失败了再重试"，受限 / 私有仓库的文件会直接带上 Token。
@@ -206,13 +207,13 @@ webui\                    ← 程序本体
 
 下面这些**不是**本程序的文件，可以整理到别处（建议整体挪进 `备份\`，不要直接删）：
 
-| 名称 | 是什么 |
-|---|---|
+| 名称                                                               | 是什么                                                                                                      |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
 | `HFD_IDM.py`、`idm_batch.py`、`aria2_tools.py`、`下载.bat` | 旧版 tkinter 界面程序（`下载.bat` 双击启动的就是它），和网页版共用 `hf_downloader_config.json` 里的设置 |
-| `__pycache__\` | 旧版程序留下的编译缓存 |
-| `_aria2_日志.txt` | 旧版程序留下的 aria2 运行日志 |
-| `1.yaml` | ai-toolkit 的 LoRA 训练配置，与下载器无关 |
-| `.obsidian\` | 把这个文件夹当 Obsidian 仓库打开过留下的配置 |
+| `__pycache__\`                                                   | 旧版程序留下的编译缓存                                                                                      |
+| `_aria2_日志.txt`                                                | 旧版程序留下的 aria2 运行日志                                                                               |
+| `1.yaml`                                                         | ai-toolkit 的 LoRA 训练配置，与下载器无关                                                                   |
+| `.obsidian\`                                                     | 把这个文件夹当 Obsidian 仓库打开过留下的配置                                                                |
 
 必须留在原地的只有：`webui\`、`hf_downloader_config.json`、`hf_download_history.json`、`启动.bat`、`python_path.txt`。
 
@@ -231,3 +232,24 @@ webui\                    ← 程序本体
 - "关于作者"改版：联系方式改为"邮箱 | GitHub | Gitee"（邮箱点击复制、GitHub/Gitee 用默认浏览器打开）；新增微信 / 小红书 / 打赏二维码（放同名图片即可，点击用浏览器看大图）；头像支持 png / jpg / webp / svg；"关于这个工具"自动读取 `关于软件.html`。
 - "关于软件"里的运行环境、依赖、文件位置默认折叠；"说明""关于作者""关于软件""属性"窗口点空白处即可关闭。
 - 常规页"已下载 / 总大小"的提示只显示总大小（HF / Win 两种算法）；"更多"菜单第一项简化为"说明"。
+
+# 我的社交媒体
+
+单击放大图片扫码
+
+<table style="border: 1px solid #9FA0A0; border-collapse: collapse; width: auto;">
+    <tr>
+      <th style="border: 1px solid #9FA0A0; padding: 0; background-color: #000000; text-align: center; height: auto; width: auto;">
+        <a href="https://discord.gg/ArErrjXT53" rel="noopener noreferrer">
+          <img src="https://github.com/idesign2018/Meta_IDesign/blob/master/QRCode/Discord-2.jpg?raw=true" alt="立即加入Discord社区" style="display: block; margin: 0 auto; max-width: 100%;"></a>DC社区</th>
+      <th style="border: 1px solid #9FA0A0; padding: 0; background-color: #000000; text-align: center; height: auto;">
+      <a rel="noopener noreferrer">
+          <img src="https://github.com/idesign2018/Meta_IDesign/blob/master/QRCode/xhs.jpg?raw=true" alt="小红书" style="display: block; margin: 0 auto; max-width: 100%;"></a>小红书主页</th>
+        <th style="border: 1px solid #9FA0A0; padding: 0; background-color: #000000; text-align: center; height: auto; width: auto;">
+        <a rel="noopener noreferrer">
+          <img src="https://github.com/idesign2018/Meta_IDesign/blob/master/QRCode/WeChat.jpg?raw=true" alt="微信" style="display: block; margin: 0 auto; max-width: 100%;"></a>加微信好友</th>
+      <th style="border: 1px solid #9FA0A0; padding: 0; background-color: #000000; text-align: center; height: auto;">
+      <a rel="noopener noreferrer">
+          <img src="https://github.com/idesign2018/Meta_IDesign/blob/master/QRCode/wxzf-2.jpg?raw=true" alt="微信支付" style="display: block; margin: 0 auto; max-width: 100%;"></a>请我喝咖啡WX</th>
+    </tr>
+</table>

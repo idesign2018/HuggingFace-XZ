@@ -1,0 +1,9 @@
+
+Hugging Face 模型极速下载器 —— Python 路径（可选）
+--------------------------------------------------
+如果“启动.bat”提示找不到 pythonw.exe，把 Anaconda 里 pythonw.exe 的完整路径
+写到本文件的第 1 行（不要加引号），例如：
+
+C:\Users\你的用户名\anaconda3\pythonw.exe
+
+改完保存，再双击 启动.bat 即可。

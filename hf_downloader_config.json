@@ -1,0 +1,96 @@
+{
+  "token": "",
+  "repo_id": "Sentinel7/h3",
+  "local_dir": "F:\\Meta\\models\\loras\\H3-NSFW",
+  "use_mirror": true,
+  "idm_repo_id": "Sentinel7/h3",
+  "idm_repo_type": "model",
+  "idm_revision": "main",
+  "idm_source": "mirror",
+  "idm_root": "F:\\Meta\\models\\loras",
+  "idm_auto_subdir": true,
+  "idm_include": "",
+  "idm_exclude": "",
+  "idm_skip_existing": true,
+  "idm_path": "C:\\Program Files (x86)\\Internet Download Manager\\IDMan.exe",
+  "aria2_path": "F:\\APP\\aria2-1.37.0-win-64bit-build1\\aria2c.exe",
+  "idm_concurrency": 1,
+  "idm_auto_start": true,
+  "idm_repo_input": "supermansundies/Minimax-H3-Image-Pose-Transfer-Lora",
+  "idm_f_ext": "",
+  "idm_f_name": "",
+  "idm_f_path": "",
+  "idm_f_exclude": "",
+  "idm_f_min": "",
+  "idm_f_max": "",
+  "idm_f_unit": "MB",
+  "idm_repos": [
+    [
+      "Sentinel7/h3",
+      "model",
+      "main"
+    ],
+    [
+      "Felldude/MiniMaxImage_hdr_diffusers_vae",
+      "model",
+      "main"
+    ],
+    [
+      "SulphurAI/Sulphur-3",
+      "model",
+      "main"
+    ],
+    [
+      "Comfy-Org/MiniMax-H3-Image",
+      "model",
+      "main"
+    ],
+    [
+      "thinkingmachines/Inkling-2-Mini",
+      "model",
+      "main"
+    ],
+    [
+      "unsloth/Inkling-2-Mini-GGUF",
+      "model",
+      "main"
+    ],
+    [
+      "MiniMaxAI/MiniMax-H3-Image",
+      "model",
+      "main"
+    ],
+    [
+      "supermansundies/Minimax-H3-Image-Pose-Transfer-Lora",
+      "model",
+      "main"
+    ]
+  ],
+  "basic_workers": 8,
+  "idm_aria2_opts": {
+    "connections": 16,
+    "min_split": "1M",
+    "max_tries": 10,
+    "retry_wait": 5,
+    "timeout": 60,
+    "connect_timeout": 30,
+    "lowest_speed": "50K",
+    "overall_limit": "0",
+    "file_limit": "0",
+    "disk_cache": "64M",
+    "file_alloc": "none",
+    "proxy_mode": "none",
+    "proxy": "",
+    "user_agent": "",
+    "extra": ""
+  },
+  "idm_filter": "",
+  "idm_live_filter": true,
+  "idm_skip_basic_confirm": false,
+  "no_symlinks": true,
+  "web_basic_workers": 1,
+  "basic_high_perf": false,
+  "web_basic_threads": 16,
+  "allow_patterns": "",
+  "source": "mirror"
+}

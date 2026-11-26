@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<!--
+  ┌──────────────────────────────────────────────────────────────────────────┐
+  │  关于作者 —— 自己编辑的内容页。改完保存，关掉“关于作者”窗口再点开就生效。       │
+  │                                                                          │
+  │  ■ 头像：把图片放进“关于”文件夹，命名为 头像.png / 头像.jpg / 头像.webp / 头像.svg │
+  │          任意一个即可，自动识别，不用改下面的代码；都没有时显示 占位-头像.svg。     │
+  │          也可以直接把 <img class="avatar" …> 换成一段 <svg class="avatar">…</svg>。│
+  │  ■ 二维码：同样放图片就行，文件名对应下面的名称：                                 │
+  │          微信.png  小红书.png  打赏.png（.jpg / .webp / .svg 也可以）             │
+  │          想加一个？复制一段 <figure class="qr-card">…</figure>，改两处名称即可。   │
+  │          在程序里点二维码，会用默认浏览器打开大图，方便扫码。                       │
+  │  ■ 联系方式：data-copy="…" 的链接点击后复制到剪贴板；普通网址用默认浏览器打开。     │
+  │  ■ “关于这个工具”自动读取 关于软件.html 的内容，只改那个文件就行。                │
+  │  ■ 文字写法：<b>加粗</b>  <a href="网址">链接</a>  <p>分段</p>  <br>换行            │
+  └──────────────────────────────────────────────────────────────────────────┘
+-->
+<style>
+  :root {
+    --text: #151a21; --sub: #5a6470; --muted: #8a929e;
+    --line: #e4e8ed; --bg: #fff; --soft: #f7f8fa; --acc: #0fae63; --link: #2f6fed;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--bg); color: var(--text); padding: 22px 26px 30px;
+         font: 13.5px/1.85 "Microsoft YaHei UI", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif;
+         -webkit-font-smoothing: antialiased; }
+  a { color: var(--link); text-decoration: none; cursor: pointer; }
+  a:hover { text-decoration: underline; }
+  code { font-family: Consolas, "Cascadia Mono", monospace; background: var(--soft);
+         padding: 1px 6px; border-radius: 4px; font-size: 12.5px; }
+  h2 { font-size: 13px; letter-spacing: .3px; color: var(--sub); font-weight: 700;
+       margin: 22px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  p { margin: 8px 0; }
+
+  /* 头像 + 名字 */
+  .who { display: flex; align-items: center; gap: 16px; }
+  .avatar { width: 76px; height: 76px; border-radius: 20px; flex: none; display: block; object-fit: cover;
+            box-shadow: 0 2px 12px #0000000f; }
+  .name { font-size: 19px; font-weight: 700; letter-spacing: .2px; }
+  .desc { color: var(--sub); margin-top: 4px; }
+  .tags { margin-top: 6px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { font-size: 11.5px; color: var(--sub); background: var(--soft); border: 1px solid var(--line);
+         border-radius: 20px; padding: 1px 10px; }
+
+  /* 联系方式：邮箱 | GitHub | Gitee */
+  .links { display: flex; align-items: center; flex-wrap: wrap; gap: 4px 0; font-size: 14px; }
+  .links a { font-weight: 600; }
+  .links .bar { color: var(--line); margin: 0 14px; user-select: none; }
+
+  /* 二维码：图片在上、名称在下；宽度随窗口自适应，最大 132px */
+  .qrs { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 132px)); gap: 18px; margin-top: 16px; }
+  .qr-card { margin: 0; text-align: center; }
+  .qr { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; background: #fff;
+        border: 1px solid var(--line); border-radius: 12px; padding: 6px; cursor: zoom-in; transition: .15s; }
+  .qr:hover { border-color: var(--acc); box-shadow: 0 4px 14px #0fae6326; }
+  .qr-card figcaption { margin-top: 6px; font-size: 12.5px; color: var(--sub); }
+  .qr-tip { color: var(--muted); font-size: 11.5px; margin-top: 8px; }
+
+  /* 从 关于软件.html 读进来的内容 */
+  .inc h2 { font-size: 12.5px; color: var(--text); border: 0; margin: 14px 0 2px; padding: 0; }
+  .inc h2:first-child { margin-top: 0; }
+  .inc ul { margin: 4px 0; padding-left: 20px; }
+  .inc .ver { color: var(--muted); font-size: 12px; margin: 2px 0; }
+  .inc .dim { color: var(--sub); }
+
+  .note { background: var(--soft); border: 1px solid var(--line); border-radius: 10px;
+          padding: 12px 16px; color: var(--sub); font-size: 12.5px; }
+</style>
+</head>
+<body>
+
+  <div class="who">
+    <img class="avatar" alt="头像" data-try="头像.png 头像.jpg 头像.webp 头像.svg" src="占位-头像.svg">
+    <div>
+      <div class="name">idesign</div>
+      <div class="desc">独立视觉设计师、AI导演，平时喜欢折腾 AI 模型和自动化工具。</div>
+      <div class="tags"><span class="tag">AI 工具</span><span class="tag">Python</span><span class="tag">Windows</span></div>
+    </div>
+  </div>
+
+  <h2>联系方式</h2>
+  <!-- 邮箱：点击后复制地址（data-copy 里写邮箱）；GitHub / Gitee：点击用默认浏览器打开 -->
+  <div class="links">
+    <a href="mailto:idesign2015@163.com" data-copy="idesign2015@163.com" title="点击复制：idesign2015@163.com">邮箱</a><span class="bar">|</span>
+    <a href="https://github.com/idesign2018" target="_blank" title="https://github.com/idesign2018">GitHub</a><span class="bar">|</span>
+    <a href="https://gitee.com/idesigns" target="_blank" title="https://gitee.com/idesigns">Gitee</a>
+  </div>
+
+  <div class="qrs">
+    <figure class="qr-card">
+      <img class="qr" data-try="微信.png 微信.jpg 微信.webp 微信.svg" src="占位-二维码.svg" alt="微信">
+      <figcaption>+V</figcaption>
+    </figure>
+    <figure class="qr-card">
+      <img class="qr" data-try="小红书.png 小红书.jpg 小红书.webp 小红书.svg" src="占位-二维码.svg" alt="小红书">
+      <figcaption>关注小红书</figcaption>
+    </figure>
+    <figure class="qr-card">
+      <img class="qr" data-try="打赏.png 打赏.jpg 打赏.webp 打赏.svg" src="占位-二维码.svg" alt="打赏">
+      <figcaption>喝杯咖啡</figcaption>
+    </figure>
+  </div>
+  <div class="qr-tip">点击二维码用浏览器打开大图，方便扫码</div>
+
+  <h2>关于这个工具</h2>
+  <!-- 这里的内容自动读取 关于软件.html，只要改那个文件，这里会一起变 -->
+  <div class="inc" data-include="关于软件.html">正在读取 关于软件.html …</div>
+
+  <h2>反馈</h2>
+  <div class="note">
+    遇到问题请附上程序目录下的 <code>启动日志.log</code> 最后几十行，以及当时的操作步骤，能快很多。<br>
+    如果只是想法或建议，直接留言就行，看到了会回。
+  </div>
+
+<!-- ↓ 下面的代码不用改：自动识别头像/二维码图片、读取“关于软件”的内容 -->
+<script>
+  /* 图片：按 data-try 里的顺序找第一个存在的文件，都没有就保留占位图 */
+  document.querySelectorAll("img[data-try]").forEach(function (img) {
+    var list = img.getAttribute("data-try").split(/\s+/).filter(Boolean);
+    (function next(i) {
+      if (i >= list.length) return;
+      var probe = new Image();
+      probe.onload = function () { img.src = probe.src; img.setAttribute("data-real", "1"); };
+      probe.onerror = function () { next(i + 1); };
+      probe.src = list[i] + "?v=" + Date.now();
+    })(0);
+  });
+  /* 读取 关于软件.html 的正文，放进 data-include 的位置 */
+  document.querySelectorAll("[data-include]").forEach(function (box) {
+    fetch(box.getAttribute("data-include") + "?v=" + Date.now()).then(function (r) {
+      if (!r.ok) throw new Error(r.status);
+      return r.text();
+    }).then(function (t) {
+      var doc = new DOMParser().parseFromString(t, "text/html");
+      doc.querySelectorAll("script, style").forEach(function (x) { x.remove(); });
+      box.innerHTML = doc.body.innerHTML;
+    }).catch(function () {
+      box.innerHTML = '<p class="dim">没有读到 关于软件.html（在程序里打开就能看到）。</p>';
+    });
+  });
+</script>
+</body>
+</html>

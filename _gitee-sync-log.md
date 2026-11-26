@@ -1,0 +1,1266 @@
+# Gitee Sync 诊断日志
+
+## 同步执行 2026/11/24 06:00:38
+后端：gitee idesigns/HFD@master
+本地 167 | 远端 0 | **基线 329** | 一致跳过 0 | 冲突 0
+计划：下载 0，上传 13，删除本地 154，删除远端 0
+- 🗑️ 删除本地 `.obsidian/app.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/appearance.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/backlink.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/bookmarks.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/community-plugins.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/core-plugins.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/graph.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/hotkeys.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/page-preview.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspaces.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_aidesign_20260711095208.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_aidesign_20260731212635.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_root_20260716140153.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_root_20260731173620.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_root_20260803110816.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_root_20260812100712.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_root_20260823173201.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_root_20260903113709.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_root_20260914112044.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/workspace_冲突文件_root_20260915110952.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/advanced-multi-column/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/advanced-multi-column/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/advanced-multi-column/styles.css` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/agent-client/data.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/agent-client/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/agent-client/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/agent-client/styles.css` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/custom-note-width/data.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/custom-note-width/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/custom-note-width/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/custom-note-width/styles.css` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/fluent-read-0.0.41-obsidian/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/fluent-read-0.0.41-obsidian/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/gitee-sync-better/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/gitee-sync-better/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/gitee-sync-plus/data.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/gitee-sync-plus/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/gitee-sync-plus/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/gitee-sync-plus/styles.css` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/obsidian-excalidraw-plugin/data.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/obsidian-excalidraw-plugin/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/obsidian-excalidraw-plugin/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/obsidian-excalidraw-plugin/styles.css` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/obsidian-git/data.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/obsidian-git/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/obsidian-git/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/obsidian-git/obsidian_askpass.sh` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/obsidian-git/styles.css` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/data.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/styles.css` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/02ddac037b9e8e0a82a311e64db5b918a6c46c28c332702389d0e7fb8cdd590c.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/03fbd9818997002eaffb7348d8130e43d0283694968cea50c569433ee87c3914.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/07b49919d20a9b806a159d019ca3225ad93567116b79b8cdf220c0617b20a0d0.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/12ebfbb757571634306f95b5d2b7644c7c421360274c4d9c644492585e79683d.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/13a11343db20c311e5ea7d837bc85b1d3d03f35285caf8e850c50b3dac079611.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/1d25bfbb6964d110140a8690fe246765d0771e357c6ea5ab749b9dd0585421fc.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/1f5414e9ae9ba27f0e9c620fea82e0ed3cc25901503109b7661c84e9c80b7148.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/21961257cf6f88116da95c321bc8cec5631f4b5b5cb89c8972532ac5c8b4c449.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/23d694cf8bd9b7b6d977e3be52b466a41f0100cbef7c2a8f9bd78661e3eb9a29.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/2b94d1aa6bfb879a98c5fac9b12300c19644a216eb3cfb0a60015774da1e1349.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/2ddfbef1dec05e0a9f3fa7e5d000ab4f6b0cc94f61729bfd0ba9288575957c34.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/2f03b17c658474a16cf28dccddb611b0c12eb8ad2c4024a08112cce4914b24cf.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/2f8c6a2a7ca4a55af701c6f59d3a9ef23051b92c67c8b278e536606da4b58ae9.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/312b477fd9e568b5a350ba48a7cda5e7ab6c628c984623877870612936dfc2cb.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/31ccb066984e513459d39c6a3450afa2567d81177ce144e458f18ccdfc7a982d.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/33a73cb2791bea50c5429024452941d37e601ee1507ade28524a8446ab15ec32.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/344daae0f7ae26e21bc8f137dc0a4bfd190b2ffe70b66222e5c08ef028b5bc1a.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/3801bf19528bc5f9b8eaf18f9abff298cfde63bdd858150d8c3c01dfcaebf8f5.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/39cb6aff966695fe7d8faec278ae2c660ed7033d12fe79b1db3e0a74b0467f1e.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/3d58afef1a5f4dbd1ffd1406b0f8e098dfeb75aa8d629d508a42a4e4821cdfff.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/401b435c98a0d1b4b8d53cbe539b4aaa692c30d75a35e6415b2b8697b6942eaa.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/489584f07b3fba0ce1a94bad1ffa625fa4436a124d770d429bf28e76ce1cae84.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/4b1afcd49656b91126d2a3e284bc27275ed33060f8755572526ce15a7bb299c0.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/4e671332d2299d1ee05d9d94542fdffe9f7016e05d6b5aada4313673c8e4f454.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/4fe7742f0b2045014bf41f4310992b1459a6d8af79c1387e7de844b3c8a16005.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/59d257e04c738005ac30335f00b363f508515f9852e1a85360eeecf75e9d78a9.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/600909f8053b5d842d1bb7ed99e496d808e912d43aba81a059dd31f5c2022386.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/62f18dfa1fc782f8b86030dbf2d1d40631917d9cb4e56818d5e3306cef6a32e9.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/63f833351d68dfc99d14fabf44dbf17d7e3ad2593df3f43b03279d93d2bb1318.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/698a0d6b65e861c910ba0fc26f863a3bb16715fae2e3074118b7cad18f2628e2.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/6ebf1a48222ef7e06c3eb032219b3a65317f1109cd6bdb3fece59f30d442ed00.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/6f709ed202e82dd6c4b65914d68f5b3cf5c0ec51a5d7c314d43856462a58132c.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/72014e855ff2b65c724bbcfbde5d07aa2d091753d2486ced4074a05a429b7252.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/736f934607e3e49f4f8a59100beaeae9c8198d023e771cad0bcc17dfb1e6c9a4.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/7574930dfb2750c12da987e0bd7f222d2c7707a8fd1bc5aa57b9adf4b1f115d8.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/760fa3c893dafd051f19ac3bd383b9bcfa792ac296412d0223f254fcc7298f74.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/7961ae7a0f61e5c3d6ef28a95c86c70bbbc6b3c8384e828cba3306612c4dc7cb.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/79b02d23a595dc99abc11c9869b6618a1e3535b68c8a90dc7f291b8135b0ff9c.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/7b302b127a5c034e19383d167ae095b79b5b50d8b1e29620790580832f9c5f84.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/7e6eac7252174f51f2ee613061b3d465393f2f3f651713fcfefebf5f765014eb.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/7fa129a3d0f7cc962ce1383b886017c08fa568f495e8e649bf4ef9802e26ea43.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/86cf2dde403684d8da57117b8d9a2df6a351ed3f670ba430b2dd7ec9f367ec8f.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/8b1e067ea7495a29c1d2db47bad8052e9b8b700376113ac3085ce81be3cd7e75.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/8dcfa72add39d7959d24a9fc5ee7c97c6f46c5e7c032780f058ecfced7b698bd.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/8f6ba8dfc97827d4f37d168c8009f200306a939ae5ee4b2bda0f9c079f31b0f6.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/8fc6119d644f27cf17cf6a2ce896e3cd25142a4243437117b8c4e697dfcfbd5d.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/9023b3b32f0c5ce2bedb452f5d6e0791ef9d3a89c6e16822cd76c5c60670d010.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/93f6c97bd90f0e81205bda5f9e26d5545265ca41534d5b2ca0654bc1609ade8b.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/9642bb4112b0e6597d95e41ec5a77dadd60307e905ad78261ab61e4d6ada1b72.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/9acdb9ba3bfa005176496cf5734f4ff99afbb4afe481bbdf59c913655fdbc907.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/9bf357dd89ee7bba0d19ba2996807440cd0dd372716ae955e244bb88013163b1.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/9d155b4fd09025dcf255b2bb778be98c0533ed3d52d5832db2759d8d2e6febe5.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/9d7964518c66d010a3a51063ffa1befd9648055bc3768cac6e023e5f0e062d7c.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/a13978e824e7c5c0ef764f09fa9b954c115121dd757cd3b1cec9aed4582c04cc.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/a2e8123906f0cec1b2fd809c642934adbabc0192776936bc4558fd34c6ed8c1e.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/a3ec35c418df952df8b0fcf1c8383383f17531b2ded8bbc6d2f79347e6962e60.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/a70ecfb56bf5c72389259b657f24d57ef1fe48c7328a838fcb09e0093f23e40e.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/a902336170905420bca29645f9d7969cd265574a57e34ebb09ca89e4332b5078.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/ac2c5075db712a8e214972921bdd4881dc82b5c73874a5e1829fd99bf45bff8e.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/b1b0ef55a9dca0a9629db3844e95311cd6eccf06235c24786d1151d5c9a77085.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/b5dbff71f76a27b448f96f7069a11fd79c3c81a191e292e03830c8f356bff582.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/b9244d9634be6475e4b92be42a08acc0414d7d2d567bfdcc7536e0c8e4d6a806.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/bfc7da606ac91ff89d46c773d8dd4769caf63819dc1a56599280ce74922c1b47.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/ca2a6e9d3bf6bdda7805cde6895678b5d6ee6c79099031087127f03852da79da.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/cad9e50d7479523e4c020ef60ded44ce240d36e7d4e4483f9308e54d284d8ffa.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/cd50ea03100100ff01bb5746b1baac0cb8b66502e880ecb9bb6bfd1f34529a0e.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/d002d8638284c6c5452ecdcca26bfae5352728aad43e30746ddca8269c5d10ac.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/d0f0d8f0d28711706019659c470efadc2e90b34d88330fb0cc1a5be862d4de1d.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/d8c6fb7d75fb692a0678c238b8d87c2b70eb717f20a4fb9e75f40f0184b5a0a1.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/db0089b417fe6927ab3a0aad1454b78e13dc070b7cba926656fe0503f238b889.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/dbb08e102a87e8aa934ecafddc3977e965e9bf2c731f289d920f007705fb66a5.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/dc3f601877d93db153c97617149e1ea8436788405ddc77a3d86900ddddf07fca.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/e1495d3cdbdc423e1d11fb95515b908ae4b7f44a2bb5632658e11b88685da356.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/e67c91c628918e668b5ee97ca16617f8e395169efb7efafefea038b0e970306a.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/e81e54bc5f82193150ae61c73099f2e9870329a96061ea1f5a7428e2c06fddd5.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/ea6c8be6be2ef8eaadac3c669c51fffe13924a5ae92eb4c5f52a7c59897cafa1.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/eaa035ffe59ce25082dda7665cae3de0b91b89742e25f10efefb518f3cde28de.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/eb856c1ce1ba1b83c7cf326799800a77816984d9d196759162bf343e8ab170f8.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/ec692a1f9c385114f7a9e8bd169103908971873047fa688dde814c1870931059.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/f056c07d58b40ff4219349d05609d0ee875e85eef7cc61a7fd2e113efe8a20dc.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/f1c935023ffbebeb3c265a8dc255c4e5273c318eaee57f5a17b673d2012898e2.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/f30a18c26dcd64e49e73c3ae7aa07464183393f5c483ec58ee54fc6da265943e.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/f4204cbe0536201e4bb836ff818372775c34fcbf7e736d86f09aad37c7852061.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/f4ddda564a08e8245dc37b31efc8e6f862f769fe612f77ec0db3ffbd080e49da.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/f570e35be1f2fa4dddd234e97f30dcb19efee9dff5c9b09e782ee2c759e3eb75.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/f673e4d3ba7738b1b52ce7f804bce1ade5078b51d975d6a77622e030184dbe56.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/f9e5b8c45b7b597ee77fe6a555f58ce0dc4610e100963306201b1a2af2fa34ec.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/qiaomu-ai-rss/image-cache/ffe6e947f9b7dde6b68b2e48ee2d46d7f0ee4114a9b1f45802cde8ff84f66e57.img` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/rss-dashboard/data.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/rss-dashboard/feeds.opml.backup` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/rss-dashboard/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/rss-dashboard/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/rss-dashboard/rss-dashboard-user-preferences.json.backup` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/rss-dashboard/styles.css` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/rss-dashboard/data/feeds/e16a0988-78bb-4c87-ac87-904f67c7f16c.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/table-layout-helper/data.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/table-layout-helper/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/table-layout-helper/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/table-layout-helper/styles.css` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/templater-obsidian/main.js` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/templater-obsidian/manifest.json` — 远端已删除
+- 🗑️ 删除本地 `.obsidian/plugins/templater-obsidian/styles.css` — 远端已删除
+- ⬆️ 上传 `备份/下载.bat` — 本地新增
+- ⬆️ 上传 `备份/idm_batch.py.bak` — 本地新增
+- ⬆️ 上传 `备份/HFD.py` — 本地新增
+- ⬆️ 上传 `下载.bat` — 本地新增
+- ⬆️ 上传 `__pycache__/idm_batch.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `__pycache__/aria2_tools.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `_aria2_日志.txt` — 本地新增
+- ⬆️ 上传 `idm_batch.py` — 本地新增
+- ⬆️ 上传 `hf_downloader_config.json` — 本地新增
+- ⬆️ 上传 `HFD_IDM.py` — 本地新增
+- ⬆️ 上传 `aria2_tools.py` — 本地新增
+- ⬆️ 上传 `1.yaml` — 本地新增
+- ⬆️ 上传 `.obsidian/plugins/gitee-sync-better/data.json` — 本地新增
+结果：成功 — 下载 0，上传 13，删除本地 154，删除远端 0，冲突 0
+
+## 同步执行 2026/11/24 06:01:26
+后端：gitee idesigns/HFD@master
+本地 13 | 远端 13 | **基线 13** | 一致跳过 12 | 冲突 0
+计划：下载 0，上传 1，删除本地 0，删除远端 0
+- ⬆️ 上传 `.obsidian/plugins/gitee-sync-better/data.json` — 本地修改
+结果：成功 — 下载 0，上传 1，删除本地 0，删除远端 0，冲突 0
+
+## 同步执行 2026/11/24 06:02:26
+后端：gitee idesigns/HFD@master
+本地 13 | 远端 13 | **基线 13** | 一致跳过 12 | 冲突 0
+计划：下载 0，上传 1，删除本地 0，删除远端 0
+- ⬆️ 上传 `.obsidian/plugins/gitee-sync-better/data.json` — 本地修改
+结果：成功 — 下载 0，上传 1，删除本地 0，删除远端 0，冲突 0
+
+## 同步执行 2026/11/24 06:03:26
+后端：gitee idesigns/HFD@master
+本地 13 | 远端 13 | **基线 13** | 一致跳过 12 | 冲突 0
+计划：下载 0，上传 1，删除本地 0，删除远端 0
+- ⬆️ 上传 `.obsidian/plugins/gitee-sync-better/data.json` — 本地修改
+结果：成功 — 下载 0，上传 1，删除本地 0，删除远端 0，冲突 0
+
+## 同步执行 2026/11/24 06:04:26
+后端：gitee idesigns/HFD@master
+本地 13 | 远端 13 | **基线 13** | 一致跳过 12 | 冲突 0
+计划：下载 0，上传 1，删除本地 0，删除远端 0
+- ⬆️ 上传 `.obsidian/plugins/gitee-sync-better/data.json` — 本地修改
+结果：成功 — 下载 0，上传 1，删除本地 0，删除远端 0，冲突 0
+
+## 同步执行 2026/11/24 06:05:26
+后端：gitee idesigns/HFD@master
+本地 13 | 远端 13 | **基线 13** | 一致跳过 12 | 冲突 0
+计划：下载 0，上传 1，删除本地 0，删除远端 0
+- ⬆️ 上传 `.obsidian/plugins/gitee-sync-better/data.json` — 本地修改
+结果：成功 — 下载 0，上传 1，删除本地 0，删除远端 0，冲突 0
+
+## 同步执行 2026/11/24 20:22:21
+后端：gitee idesigns/HFD@master
+本地 83 | 远端 12 | **基线 12** | 一致跳过 11 | 冲突 0
+计划：下载 0，上传 72，删除本地 0，删除远端 0
+- ⬆️ 上传 `备份/webui_20261124-202017/hf_download_history.json` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/hf_downloader_config.json` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_server.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_filter.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_api_basic.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch_io.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch_dl.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch_basic.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_jobs.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_dialog.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_common.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_basic.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_batch.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_batch_io.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_server.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/static/batch_ui.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/static/main.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/static/index.html` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/static/batch.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/static/core.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/static/app.css` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/static/basic.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/static/menu.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_dialog.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_batch_dl.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_jobs.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_batch_basic.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_aria2.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_api_basic.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_shell.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_history.py` — 本地新增
+- ⬆️ 上传 `下载(网页版).bat` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_shell.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_server.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_jobs.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_history.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_filter.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_dialog.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_common.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_batch_io.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_batch_dl.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_batch_basic.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_batch.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_basic.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_aria2.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/hfd_api_basic.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/static/menu.js` — 本地新增
+- ⬆️ 上传 `webui/static/main.js` — 本地新增
+- ⬆️ 上传 `webui/static/index.html` — 本地新增
+- ⬆️ 上传 `webui/static/core.js` — 本地新增
+- ⬆️ 上传 `webui/static/batch_ui.js` — 本地新增
+- ⬆️ 上传 `webui/static/batch.js` — 本地新增
+- ⬆️ 上传 `webui/static/basic.js` — 本地新增
+- ⬆️ 上传 `webui/static/app.css` — 本地新增
+- ⬆️ 上传 `webui/hfd_shell.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_server.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_jobs.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_history.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_filter.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_dialog.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_common.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_batch_dl.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_batch_io.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_batch_basic.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_batch.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_basic.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_aria2.py` — 本地新增
+- ⬆️ 上传 `webui/hfd_api_basic.py` — 本地新增
+- ⬆️ 上传 `webui/app.py` — 本地新增
+- ⬆️ 上传 `hf_download_history.json` — 本地新增
+- ⬆️ 上传 `hf_downloader_config.json` — 本地修改
+结果：成功 — 下载 0，上传 72，删除本地 0，删除远端 0，冲突 0
+
+## 同步执行 2026/11/24 21:49:16
+后端：gitee idesigns/HFD@master
+本地 110 | 远端 83 | **基线 83** | 一致跳过 38 | 冲突 0
+计划：下载 0，上传 72，删除本地 0，删除远端 35
+- ⬆️ 上传 `python_path.txt` — 本地新增
+- ⬆️ 上传 `启动日志.log` — 本地新增
+- ⬆️ 上传 `诊断启动.bat` — 本地新增
+- ⬆️ 上传 `启动.bat` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_shell.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_history.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_basic.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_aria2.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_common.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_server.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_filter.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_api_basic.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch_io.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch_dl.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch_basic.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/__pycache__/hfd_dialog.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/shellops/__pycache__/dialog.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/win.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/files.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__init__.py` — 本地新增
+- ⬆️ 上传 `webui/shellops/win.py` — 本地新增
+- ⬆️ 上传 `webui/shellops/dialog.py` — 本地新增
+- ⬆️ 上传 `webui/shellops/files.py` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/api.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/filter.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/aria2.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__init__.py` — 本地新增
+- ⬆️ 上传 `webui/batch/api.py` — 本地新增
+- ⬆️ 上传 `webui/batch/aria2.py` — 本地新增
+- ⬆️ 上传 `webui/batch/filter.py` — 本地新增
+- ⬆️ 上传 `webui/batch/io.py` — 本地新增
+- ⬆️ 上传 `webui/batch/download.py` — 本地新增
+- ⬆️ 上传 `webui/batch/transform.py` — 本地新增
+- ⬆️ 上传 `webui/batch/manager.py` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/api.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__init__.py` — 本地新增
+- ⬆️ 上传 `webui/basic/api.py` — 本地新增
+- ⬆️ 上传 `webui/basic/worker.py` — 本地新增
+- ⬆️ 上传 `webui/basic/manager.py` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/history.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/hub.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/diag.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/diag.py` — 本地新增
+- ⬆️ 上传 `webui/core/__init__.py` — 本地新增
+- ⬆️ 上传 `webui/core/hub.py` — 本地新增
+- ⬆️ 上传 `webui/core/server.py` — 本地新增
+- ⬆️ 上传 `webui/core/history.py` — 本地新增
+- ⬆️ 上传 `webui/core/common.py` — 本地新增
+- ⬆️ 上传 `webui/static/js/ui/notice.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/ui/menu.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/main.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/core.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/batch/menu.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/batch/batch_ui.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/batch/batch.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/basic/menu.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/basic/basic.js` — 本地新增
+- ⬆️ 上传 `webui/static/css/app.css` — 本地新增
+- ⬆️ 上传 `webui/static/index.html` — 本地修改
+- ⬆️ 上传 `webui/app.py` — 本地修改
+- ❌ 删除远端 `webui/__pycache__/hfd_api_basic.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_aria2.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_basic.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_batch.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_batch_basic.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_batch_dl.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_batch_io.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_common.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_dialog.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_filter.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_history.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_jobs.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_server.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/__pycache__/hfd_shell.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `webui/hfd_api_basic.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_aria2.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_basic.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_batch.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_batch_basic.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_batch_dl.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_batch_io.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_common.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_dialog.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_filter.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_history.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_jobs.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_server.py` — 本地已删除
+- ❌ 删除远端 `webui/hfd_shell.py` — 本地已删除
+- ❌ 删除远端 `webui/static/app.css` — 本地已删除
+- ❌ 删除远端 `webui/static/basic.js` — 本地已删除
+- ❌ 删除远端 `webui/static/batch.js` — 本地已删除
+- ❌ 删除远端 `webui/static/batch_ui.js` — 本地已删除
+- ❌ 删除远端 `webui/static/core.js` — 本地已删除
+- ❌ 删除远端 `webui/static/main.js` — 本地已删除
+- ❌ 删除远端 `webui/static/menu.js` — 本地已删除
+结果：成功 — 下载 0，上传 72，删除本地 0，删除远端 35，冲突 0
+
+## 同步执行 2026/11/24 22:00:18
+后端：gitee idesigns/HFD@master
+本地 123 | 远端 110 | **基线 110** | 一致跳过 110 | 冲突 0
+计划：下载 0，上传 13，删除本地 0，删除远端 0
+- ⬆️ 上传 `README.md` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/win.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/files.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/aria2.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/filter.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/__init__.cpython-310.pyc` — 本地新增
+结果：成功 — 下载 0，上传 13，删除本地 0，删除远端 0，冲突 0
+
+## 同步执行 2026/11/24 22:05:45
+后端：gitee idesigns/HFD@master
+本地 123 | 远端 123 | **基线 123** | 一致跳过 114 | 冲突 0
+计划：下载 0，上传 9，删除本地 0，删除远端 8
+- ⬆️ 上传 `旧版/_aria2_日志.txt` — 本地新增
+- ⬆️ 上传 `旧版/__pycache__/idm_batch.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `旧版/__pycache__/aria2_tools.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `旧版/下载.bat` — 本地新增
+- ⬆️ 上传 `旧版/HFD_IDM.py` — 本地新增
+- ⬆️ 上传 `旧版/idm_batch.py` — 本地新增
+- ⬆️ 上传 `旧版/aria2_tools.py` — 本地新增
+- ⬆️ 上传 `README.md` — 本地修改
+- ⬆️ 上传 `备份/1.yaml` — 本地新增
+- ❌ 删除远端 `1.yaml` — 本地已删除
+- ❌ 删除远端 `HFD_IDM.py` — 本地已删除
+- ❌ 删除远端 `__pycache__/aria2_tools.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `__pycache__/idm_batch.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `_aria2_日志.txt` — 本地已删除
+- ❌ 删除远端 `aria2_tools.py` — 本地已删除
+- ❌ 删除远端 `idm_batch.py` — 本地已删除
+- ❌ 删除远端 `下载.bat` — 本地已删除
+结果：成功 — 下载 0，上传 9，删除本地 0，删除远端 8，冲突 0
+
+## 同步执行 2026/11/24 22:15:44
+后端：gitee idesigns/HFD@master
+本地 123 | 远端 123 | **基线 123** | 一致跳过 121 | 冲突 0
+计划：下载 0，上传 2，删除本地 0，删除远端 1
+- ⬆️ 上传 `旧版/下载(网页版).bat` — 本地新增
+- ⬆️ 上传 `启动日志.log` — 本地修改
+- ❌ 删除远端 `下载(网页版).bat` — 本地已删除
+结果：成功 — 下载 0，上传 2，删除本地 0，删除远端 1，冲突 0
+
+## 同步执行 2026/11/24 23:38:15
+后端：gitee idesigns/HFD@master
+本地 181 | 远端 123 | **基线 123** | 一致跳过 96 | 冲突 0
+计划：下载 0，上传 85，删除本地 0，删除远端 12
+- ⬆️ 上传 `关于/小红书.jpg` — 本地新增
+- ⬆️ 上传 `关于/微信.jpg` — 本地新增
+- ⬆️ 上传 `关于/打赏.jpg` — 本地新增
+- ⬆️ 上传 `关于/占位-二维码.svg` — 本地新增
+- ⬆️ 上传 `关于/占位-头像.svg` — 本地新增
+- ⬆️ 上传 `关于/关于软件.html` — 本地新增
+- ⬆️ 上传 `关于/关于作者.html` — 本地新增
+- ⬆️ 上传 `README.md` — 本地修改
+- ⬆️ 上传 `启动日志.log` — 本地修改
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/aria2.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/transform.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/filter.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/io.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/download.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/batch/batch_ui.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/batch/batch.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/batch/menu.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/basic/basic.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/basic/menu.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/core.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/main.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/ui/notice.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/ui/menu.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/ui/more.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/index.html` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/css/app.css` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/hub.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/history.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/server.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/version.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/diag.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/about.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/common.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/basic/worker.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/basic/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/basic/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/basic/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/shellops/win.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/shellops/dialog.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/shellops/files.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/shellops/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/app.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-230409_停止下载_改前/server.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-230409_停止下载_改前/static/js/ui/menu.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-230409_停止下载_改前/basic/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-230409_停止下载_改前/basic/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-230409_停止下载_改前/basic/worker.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-225855_关于作者联系方式_改前/关于/关于软件.html` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-225855_关于作者联系方式_改前/关于/关于作者.html` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-225855_关于作者联系方式_改前/core/server.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-225855_关于作者联系方式_改前/core/about.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-225855_关于作者联系方式_改前/static/css/app.css` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-225855_关于作者联系方式_改前/static/js/core.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-225855_关于作者联系方式_改前/static/js/basic/basic.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-225855_关于作者联系方式_改前/static/js/ui/more.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-223220_窗口统一大小_改前/static/css/app.css` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-223220_窗口统一大小_改前/static/js/core.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-223220_窗口统一大小_改前/static/js/ui/more.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-223133_日志收起与大小提示_改前/static/js/core.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-223133_日志收起与大小提示_改前/static/js/batch/batch.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-223133_日志收起与大小提示_改前/static/js/basic/basic.js` — 本地新增
+- ⬆️ 上传 `webui/basic/segdl.py` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/basic/manager.py` — 本地修改
+- ⬆️ 上传 `webui/core/__pycache__/about.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/version.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/core/about.py` — 本地新增
+- ⬆️ 上传 `webui/core/version.py` — 本地新增
+- ⬆️ 上传 `webui/core/server.py` — 本地修改
+- ⬆️ 上传 `webui/static/js/ui/more.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/ui/menu.js` — 本地修改
+- ⬆️ 上传 `webui/static/js/main.js` — 本地修改
+- ⬆️ 上传 `webui/static/js/core.js` — 本地修改
+- ⬆️ 上传 `webui/static/js/batch/batch.js` — 本地修改
+- ⬆️ 上传 `webui/static/js/basic/basic.js` — 本地修改
+- ⬆️ 上传 `webui/static/css/app.css` — 本地修改
+- ⬆️ 上传 `webui/static/index.html` — 本地修改
+- ⬆️ 上传 `webui/app.py` — 本地修改
+- ⬆️ 上传 `hf_download_history.json` — 本地修改
+- ❌ 删除远端 `webui/batch/__pycache__/__init__.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/batch/__pycache__/aria2.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/batch/__pycache__/download.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/batch/__pycache__/filter.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/batch/__pycache__/io.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/batch/__pycache__/manager.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/batch/__pycache__/transform.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/core/__pycache__/__init__.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/core/__pycache__/common.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/shellops/__pycache__/__init__.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/shellops/__pycache__/files.cpython-310.pyc` — 本地已删除
+- ❌ 删除远端 `webui/shellops/__pycache__/win.cpython-310.pyc` — 本地已删除
+结果：成功 — 下载 0，上传 85，删除本地 0，删除远端 12，冲突 0
+
+## 同步执行 2026/11/26 18:29:54
+后端：gitee idesigns/HFD@master
+本地 312 | 远端 181 | **基线 181** | 一致跳过 148 | 冲突 0
+计划：下载 0，上传 164，删除本地 0，删除远端 0
+- ⬆️ 上传 `备份/_文件权限修复记录/acl-report-c56df29ac595458d98894a8cb77245ba.jsonl` — 本地新增
+- ⬆️ 上传 `备份/_patch_20261125_改更多菜单与并排数字.py` — 本地新增
+- ⬆️ 上传 `备份/_patch_20261125_全局下载源与稀疏文件.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/static/js/main.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/static/js/basic/basic.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/static/index.html` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/static/css/app.css` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/core/server.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/core/common.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/batch/transform.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/batch/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/batch/io.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/batch/download.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/basic/worker.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/basic/segdl.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/basic/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/basic/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/README.md` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/static/index.html` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/static/css/app.css` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/basic/worker.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/basic/segdl.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/basic/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/README.md` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/ui/notice.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/ui/more.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/ui/menu.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/main.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/core.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/batch/menu.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/batch/batch_ui.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/batch/batch.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/basic/menu.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/basic/basic.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/index.html` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/css/app.css` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/win.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/files.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/dialog.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/win.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/files.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/dialog.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/version.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/server.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/hub.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/history.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/diag.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/common.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/about.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/version.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/server.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/hub.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/history.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/diag.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/common.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/about.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/worker.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/manager.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/api.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/worker.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/segdl.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/transform.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/manager.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/io.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/filter.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/download.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/aria2.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/api.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/transform.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/io.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/filter.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/download.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/aria2.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/app.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/下载(网页版).bat` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_filter.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/app.py` — 本地新增
+- ⬆️ 上传 `启动日志.log` — 本地修改
+- ⬆️ 上传 `webui/static/js/ui/source.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/ui/more.js` — 本地修改
+- ⬆️ 上传 `webui/static/js/ui/menu.js` — 本地修改
+- ⬆️ 上传 `webui/static/js/main.js` — 本地修改
+- ⬆️ 上传 `webui/static/js/basic/basic.js` — 本地修改
+- ⬆️ 上传 `webui/static/index.html` — 本地修改
+- ⬆️ 上传 `webui/static/css/app.css` — 本地修改
+- ⬆️ 上传 `webui/__pycache__/app.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/app.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/win.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/files.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/shellops/__pycache__/files.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/dialog.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/files.py` — 本地修改
+- ⬆️ 上传 `webui/core/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/version.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/core/__pycache__/version.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/net.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/hub.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/history.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/diag.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/about.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/version.py` — 本地修改
+- ⬆️ 上传 `webui/core/server.py` — 本地修改
+- ⬆️ 上传 `webui/core/net.py` — 本地新增
+- ⬆️ 上传 `webui/core/common.py` — 本地修改
+- ⬆️ 上传 `webui/batch/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/filter.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/aria2.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/api.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/transform.py` — 本地修改
+- ⬆️ 上传 `webui/batch/manager.py` — 本地修改
+- ⬆️ 上传 `webui/batch/io.py` — 本地修改
+- ⬆️ 上传 `webui/batch/download.py` — 本地修改
+- ⬆️ 上传 `webui/basic/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/api.cpython-314.pyc` — 本地修改
+- ⬆️ 上传 `webui/basic/__pycache__/api.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/worker.py` — 本地修改
+- ⬆️ 上传 `webui/basic/segdl.py` — 本地修改
+- ⬆️ 上传 `webui/basic/manager.py` — 本地修改
+- ⬆️ 上传 `webui/basic/api.py` — 本地修改
+- ⬆️ 上传 `README.md` — 本地修改
+- ⬆️ 上传 `hf_download_history.json` — 本地修改
+- ⬆️ 上传 `hf_downloader_config.json` — 本地修改
+- ⬆️ 上传 `aria2/README.mingw` — 本地新增
+- ⬆️ 上传 `aria2/README.html` — 本地新增
+- ⬆️ 上传 `aria2/NEWS` — 本地新增
+- ⬆️ 上传 `aria2/LICENSE.OpenSSL` — 本地新增
+- ⬆️ 上传 `aria2/COPYING` — 本地新增
+- ⬆️ 上传 `aria2/ChangeLog` — 本地新增
+- ⬆️ 上传 `aria2/AUTHORS` — 本地新增
+- ⬆️ 上传 `aria2/aria2c.exe` — 本地新增
+结果：**失败** — 处理“备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/basic/menu.js”失败：gitee API POST 失败（502）：<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>错误网关 (502)</title>
+  <link href="/static/errors/favicon.ico" rel="shortcut icon" type="i
+（已完成：下载 0，上传 32，删除本地 0，删除远端 0）
+
+## 同步执行 2026/11/26 18:35:45
+后端：gitee idesigns/HFD@master
+本地 312 | 远端 213 | **基线 180** | 一致跳过 180 | 冲突 33
+计划：下载 0，上传 132，删除本地 0，删除远端 0
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/basic/menu.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/basic/basic.js` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/index.html` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/css/app.css` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/win.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/files.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/dialog.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/win.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/files.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/dialog.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/version.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/server.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/hub.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/history.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/diag.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/common.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/about.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/version.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/server.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/hub.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/history.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/diag.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/common.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/about.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/worker.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/manager.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/api.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/worker.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/segdl.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/transform.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/manager.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/io.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/filter.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/download.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/aria2.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/api.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/transform.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/io.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/filter.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/download.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/aria2.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/app.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/下载(网页版).bat` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_filter.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/app.py` — 本地新增
+- ⬆️ 上传 `启动日志.log` — 冲突：本地较新（本地 2026/11/26 13:51:44 ≥ 远端 未知）
+- ⬆️ 上传 `webui/static/js/ui/source.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/ui/more.js` — 冲突：本地较新（本地 2026/11/25 02:36:35 ≥ 远端 2026/11/24 23:39:18）
+- ⬆️ 上传 `webui/static/js/ui/menu.js` — 冲突：本地较新（本地 2026/11/25 02:36:32 ≥ 远端 2026/11/24 23:39:19）
+- ⬆️ 上传 `webui/static/js/main.js` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:19）
+- ⬆️ 上传 `webui/static/js/basic/basic.js` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:21）
+- ⬆️ 上传 `webui/static/index.html` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:24）
+- ⬆️ 上传 `webui/static/css/app.css` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:21）
+- ⬆️ 上传 `webui/__pycache__/app.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/app.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/win.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/files.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:35）
+- ⬆️ 上传 `webui/shellops/__pycache__/files.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/dialog.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/files.py` — 冲突：本地较新（本地 2026/11/25 02:48:39 ≥ 远端 2026/11/24 21:49:37）
+- ⬆️ 上传 `webui/core/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/version.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 23:39:16）
+- ⬆️ 上传 `webui/core/__pycache__/version.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 未知）
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/net.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/hub.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/history.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/diag.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:54）
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/about.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/version.py` — 冲突：本地较新（本地 2026/11/25 03:03:02 ≥ 远端 2026/11/24 23:39:17）
+- ⬆️ 上传 `webui/core/server.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:18）
+- ⬆️ 上传 `webui/core/net.py` — 本地新增
+- ⬆️ 上传 `webui/core/common.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:50:00）
+- ⬆️ 上传 `webui/batch/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 未知）
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:39）
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:38）
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/filter.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:39）
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/aria2.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/api.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/transform.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:48）
+- ⬆️ 上传 `webui/batch/manager.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:49）
+- ⬆️ 上传 `webui/batch/io.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:46）
+- ⬆️ 上传 `webui/batch/download.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:48）
+- ⬆️ 上传 `webui/basic/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:14）
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:14）
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/api.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:50）
+- ⬆️ 上传 `webui/basic/__pycache__/api.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/worker.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:52）
+- ⬆️ 上传 `webui/basic/segdl.py` — 冲突：本地较新（本地 2026/11/25 07:34:42 ≥ 远端 2026/11/24 23:39:13）
+- ⬆️ 上传 `webui/basic/manager.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:15）
+- ⬆️ 上传 `webui/basic/api.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:52）
+- ⬆️ 上传 `README.md` — 冲突：本地较新（本地 2026/11/25 07:58:26 ≥ 远端 2026/11/24 23:38:25）
+- ⬆️ 上传 `hf_download_history.json` — 冲突：本地较新（本地 2026/11/26 13:51:44 ≥ 远端 2026/11/24 23:39:25）
+- ⬆️ 上传 `hf_downloader_config.json` — 冲突：本地较新（本地 2026/11/26 02:06:12 ≥ 远端 2026/11/24 20:23:16）
+- ⬆️ 上传 `aria2/README.mingw` — 本地新增
+- ⬆️ 上传 `aria2/README.html` — 本地新增
+- ⬆️ 上传 `aria2/NEWS` — 本地新增
+- ⬆️ 上传 `aria2/LICENSE.OpenSSL` — 本地新增
+- ⬆️ 上传 `aria2/COPYING` — 本地新增
+- ⬆️ 上传 `aria2/ChangeLog` — 本地新增
+- ⬆️ 上传 `aria2/AUTHORS` — 本地新增
+- ⬆️ 上传 `aria2/aria2c.exe` — 本地新增
+结果：**失败** — 处理“备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/__init__.cpython-314.pyc”失败：gitee API POST 失败（502）：<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>错误网关 (502)</title>
+  <link href="/static/errors/favicon.ico" rel="shortcut icon" type="i
+（已完成：下载 0，上传 12，删除本地 0，删除远端 0）
+
+## 同步执行 2026/11/26 18:36:23
+后端：gitee idesigns/HFD@master
+本地 312 | 远端 225 | **基线 192** | 一致跳过 192 | 冲突 33
+计划：下载 0，上传 120，删除本地 0，删除远端 0
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/version.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/server.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/hub.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/history.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/diag.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/common.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/about.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/version.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/server.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/hub.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/history.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/diag.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/common.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/about.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/worker.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/manager.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/api.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/worker.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/segdl.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/__init__.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/transform.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/manager.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/io.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/filter.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/download.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/aria2.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/api.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__init__.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/transform.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/manager.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/io.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/filter.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/download.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/aria2.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/api.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261125-0226_更多菜单与分段下载_改前/app.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/下载(网页版).bat` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/hfd_filter.py` — 本地新增
+- ⬆️ 上传 `备份/webui_20261124-202017/webui/app.py` — 本地新增
+- ⬆️ 上传 `启动日志.log` — 冲突：本地较新（本地 2026/11/26 13:51:44 ≥ 远端 2026/11/24 23:38:26）
+- ⬆️ 上传 `webui/static/js/ui/source.js` — 本地新增
+- ⬆️ 上传 `webui/static/js/ui/more.js` — 冲突：本地较新（本地 2026/11/25 02:36:35 ≥ 远端 2026/11/24 23:39:18）
+- ⬆️ 上传 `webui/static/js/ui/menu.js` — 冲突：本地较新（本地 2026/11/25 02:36:32 ≥ 远端 2026/11/24 23:39:19）
+- ⬆️ 上传 `webui/static/js/main.js` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:19）
+- ⬆️ 上传 `webui/static/js/basic/basic.js` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:21）
+- ⬆️ 上传 `webui/static/index.html` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:24）
+- ⬆️ 上传 `webui/static/css/app.css` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:21）
+- ⬆️ 上传 `webui/__pycache__/app.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/__pycache__/app.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/win.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/files.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:35）
+- ⬆️ 上传 `webui/shellops/__pycache__/files.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/__pycache__/dialog.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/shellops/files.py` — 冲突：本地较新（本地 2026/11/25 02:48:39 ≥ 远端 2026/11/24 21:49:37）
+- ⬆️ 上传 `webui/core/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/version.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 23:39:16）
+- ⬆️ 上传 `webui/core/__pycache__/version.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 23:39:17）
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/net.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/hub.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/history.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/diag.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:54）
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/about.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/version.py` — 冲突：本地较新（本地 2026/11/25 03:03:02 ≥ 远端 2026/11/24 23:39:17）
+- ⬆️ 上传 `webui/core/server.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:18）
+- ⬆️ 上传 `webui/core/net.py` — 本地新增
+- ⬆️ 上传 `webui/core/common.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:50:00）
+- ⬆️ 上传 `webui/batch/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:38）
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:39）
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:38）
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/filter.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:39）
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/aria2.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/api.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/transform.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:48）
+- ⬆️ 上传 `webui/batch/manager.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:49）
+- ⬆️ 上传 `webui/batch/io.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:46）
+- ⬆️ 上传 `webui/batch/download.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 未知）
+- ⬆️ 上传 `webui/basic/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:14）
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:14）
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/api.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:50）
+- ⬆️ 上传 `webui/basic/__pycache__/api.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/worker.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:52）
+- ⬆️ 上传 `webui/basic/segdl.py` — 冲突：本地较新（本地 2026/11/25 07:34:42 ≥ 远端 2026/11/24 23:39:13）
+- ⬆️ 上传 `webui/basic/manager.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:15）
+- ⬆️ 上传 `webui/basic/api.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:52）
+- ⬆️ 上传 `README.md` — 冲突：本地较新（本地 2026/11/25 07:58:26 ≥ 远端 2026/11/24 23:38:25）
+- ⬆️ 上传 `hf_download_history.json` — 冲突：本地较新（本地 2026/11/26 13:51:44 ≥ 远端 2026/11/24 23:39:25）
+- ⬆️ 上传 `hf_downloader_config.json` — 冲突：本地较新（本地 2026/11/26 02:06:12 ≥ 远端 2026/11/24 20:23:16）
+- ⬆️ 上传 `aria2/README.mingw` — 本地新增
+- ⬆️ 上传 `aria2/README.html` — 本地新增
+- ⬆️ 上传 `aria2/NEWS` — 本地新增
+- ⬆️ 上传 `aria2/LICENSE.OpenSSL` — 本地新增
+- ⬆️ 上传 `aria2/COPYING` — 本地新增
+- ⬆️ 上传 `aria2/ChangeLog` — 本地新增
+- ⬆️ 上传 `aria2/AUTHORS` — 本地新增
+- ⬆️ 上传 `aria2/aria2c.exe` — 本地新增
+结果：**失败** — 处理“webui/core/__pycache__/version.cpython-310.pyc”失败：gitee API POST 失败（502）：<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>错误网关 (502)</title>
+  <link href="/static/errors/favicon.ico" rel="shortcut icon" type="i
+（已完成：下载 0，上传 63，删除本地 0，删除远端 0）
+
+## 同步执行 2026/11/26 18:38:34
+后端：gitee idesigns/HFD@master
+本地 118 | 远端 278 | **基线 255** | 一致跳过 61 | 冲突 23
+计划：下载 0，上传 57，删除本地 0，删除远端 194
+- ⬆️ 上传 `webui/core/__pycache__/version.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 23:39:17）
+- ⬆️ 上传 `webui/core/__pycache__/server.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/net.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/hub.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/history.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/diag.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:54）
+- ⬆️ 上传 `webui/core/__pycache__/common.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/__pycache__/about.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/core/version.py` — 冲突：本地较新（本地 2026/11/25 03:03:02 ≥ 远端 2026/11/24 23:39:17）
+- ⬆️ 上传 `webui/core/server.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:18）
+- ⬆️ 上传 `webui/core/net.py` — 本地新增
+- ⬆️ 上传 `webui/core/common.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:50:00）
+- ⬆️ 上传 `webui/batch/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:38）
+- ⬆️ 上传 `webui/batch/__pycache__/transform.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:39）
+- ⬆️ 上传 `webui/batch/__pycache__/manager.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:38）
+- ⬆️ 上传 `webui/batch/__pycache__/io.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/filter.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:57 ≥ 远端 2026/11/24 21:49:39）
+- ⬆️ 上传 `webui/batch/__pycache__/download.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/aria2.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/__pycache__/api.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/batch/transform.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:48）
+- ⬆️ 上传 `webui/batch/manager.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:49）
+- ⬆️ 上传 `webui/batch/io.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:46）
+- ⬆️ 上传 `webui/batch/download.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:48）
+- ⬆️ 上传 `webui/basic/__pycache__/__init__.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:14）
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/worker.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-314.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/segdl.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:14）
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-312.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/manager.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/__pycache__/api.cpython-314.pyc` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:50）
+- ⬆️ 上传 `webui/basic/__pycache__/api.cpython-310.pyc` — 本地新增
+- ⬆️ 上传 `webui/basic/worker.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:52）
+- ⬆️ 上传 `webui/basic/segdl.py` — 冲突：本地较新（本地 2026/11/25 07:34:42 ≥ 远端 2026/11/24 23:39:13）
+- ⬆️ 上传 `webui/basic/manager.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 23:39:15）
+- ⬆️ 上传 `webui/basic/api.py` — 冲突：本地较新（本地 2026/11/25 07:28:56 ≥ 远端 2026/11/24 21:49:52）
+- ⬆️ 上传 `README.md` — 冲突：本地较新（本地 2026/11/25 07:58:26 ≥ 远端 2026/11/24 23:38:25）
+- ⬆️ 上传 `hf_download_history.json` — 冲突：本地较新（本地 2026/11/26 13:51:44 ≥ 远端 2026/11/24 23:39:25）
+- ⬆️ 上传 `hf_downloader_config.json` — 冲突：本地较新（本地 2026/11/26 02:06:12 ≥ 远端 2026/11/24 20:23:16）
+- ⬆️ 上传 `aria2/README.mingw` — 本地新增
+- ⬆️ 上传 `aria2/README.html` — 本地新增
+- ⬆️ 上传 `aria2/NEWS` — 本地新增
+- ⬆️ 上传 `aria2/LICENSE.OpenSSL` — 本地新增
+- ⬆️ 上传 `aria2/COPYING` — 本地新增
+- ⬆️ 上传 `aria2/ChangeLog` — 本地新增
+- ⬆️ 上传 `aria2/AUTHORS` — 本地新增
+- ⬆️ 上传 `aria2/aria2c.exe` — 本地新增
+- ❌ 删除远端 `备份/1.yaml` — 本地已删除
+- ❌ 删除远端 `备份/HFD.py` — 本地已删除
+- ❌ 删除远端 `备份/_patch_20261125_全局下载源与稀疏文件.py` — 本地已删除
+- ❌ 删除远端 `备份/_patch_20261125_改更多菜单与并排数字.py` — 本地已删除
+- ❌ 删除远端 `备份/_文件权限修复记录/acl-report-c56df29ac595458d98894a8cb77245ba.jsonl` — 本地已删除
+- ❌ 删除远端 `备份/idm_batch.py.bak` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/hf_download_history.json` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/hf_downloader_config.json` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_api_basic.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_aria2.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_basic.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch_basic.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch_dl.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_batch_io.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_common.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_dialog.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_filter.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_history.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_jobs.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_server.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/__pycache__/hfd_shell.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/app.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_api_basic.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_aria2.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_basic.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_batch.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_batch_basic.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_batch_dl.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_batch_io.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_common.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_dialog.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_filter.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_history.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_jobs.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_server.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/hfd_shell.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/static/app.css` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/static/basic.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/static/batch.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/static/batch_ui.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/static/core.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/static/index.html` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/static/main.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/webui/static/menu.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-202017/下载(网页版).bat` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-223133_日志收起与大小提示_改前/static/js/basic/basic.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-223133_日志收起与大小提示_改前/static/js/batch/batch.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-223133_日志收起与大小提示_改前/static/js/core.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-223220_窗口统一大小_改前/static/css/app.css` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-223220_窗口统一大小_改前/static/js/core.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-223220_窗口统一大小_改前/static/js/ui/more.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-225855_关于作者联系方式_改前/core/about.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-225855_关于作者联系方式_改前/core/server.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-225855_关于作者联系方式_改前/static/css/app.css` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-225855_关于作者联系方式_改前/static/js/basic/basic.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-225855_关于作者联系方式_改前/static/js/core.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-225855_关于作者联系方式_改前/static/js/ui/more.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-225855_关于作者联系方式_改前/关于/关于作者.html` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-225855_关于作者联系方式_改前/关于/关于软件.html` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-230409_停止下载_改前/basic/api.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-230409_停止下载_改前/basic/manager.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-230409_停止下载_改前/basic/worker.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-230409_停止下载_改前/server.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-230409_停止下载_改前/static/js/ui/menu.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/app.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/basic/__init__.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/basic/api.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/basic/manager.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/basic/worker.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/__init__.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/api.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/aria2.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/download.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/filter.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/io.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/manager.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/batch/transform.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/__init__.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/about.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/common.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/diag.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/history.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/hub.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/server.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/core/version.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/shellops/__init__.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/shellops/dialog.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/shellops/files.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/shellops/win.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/css/app.css` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/index.html` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/basic/basic.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/basic/menu.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/batch/batch.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/batch/batch_ui.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/batch/menu.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/core.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/main.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/ui/menu.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/ui/more.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261124-233323_多线程下载与菜单_改前/webui/static/js/ui/notice.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/app.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__init__.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/__init__.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/api.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/manager.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/__pycache__/worker.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/api.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/manager.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/segdl.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/basic/worker.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__init__.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/__init__.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/api.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/aria2.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/download.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/filter.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/io.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/manager.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/__pycache__/transform.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/api.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/aria2.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/download.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/filter.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/io.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/manager.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/batch/transform.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__init__.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/__init__.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/about.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/common.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/diag.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/history.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/hub.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/server.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/__pycache__/version.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/about.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/common.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/diag.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/history.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/hub.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/server.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/core/version.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__init__.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/__init__.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/dialog.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/files.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/__pycache__/win.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/dialog.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/files.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/shellops/win.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/css/app.css` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/index.html` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/basic/basic.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/basic/menu.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/batch/batch.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/batch/batch_ui.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/batch/menu.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/core.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/main.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/ui/menu.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/ui/more.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0226_更多菜单与分段下载_改前/static/js/ui/notice.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/README.md` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/basic/manager.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/basic/segdl.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/basic/worker.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/static/css/app.css` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0539_更多菜单配色与并排数字_改前/webui/static/index.html` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/README.md` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/basic/api.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/basic/manager.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/basic/segdl.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/basic/worker.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/batch/download.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/batch/io.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/batch/manager.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/batch/transform.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/core/common.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/core/server.py` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/static/css/app.css` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/static/index.html` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/static/js/basic/basic.js` — 本地已删除
+- ❌ 删除远端 `备份/webui_20261125-0728_全局下载源与稀疏文件_改前/webui/static/js/main.js` — 本地已删除
+- ❌ 删除远端 `备份/下载.bat` — 本地已删除
+- ❌ 删除远端 `旧版/HFD_IDM.py` — 本地已删除
+- ❌ 删除远端 `旧版/__pycache__/aria2_tools.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `旧版/__pycache__/idm_batch.cpython-314.pyc` — 本地已删除
+- ❌ 删除远端 `旧版/_aria2_日志.txt` — 本地已删除
+- ❌ 删除远端 `旧版/aria2_tools.py` — 本地已删除
+- ❌ 删除远端 `旧版/idm_batch.py` — 本地已删除
+- ❌ 删除远端 `旧版/下载(网页版).bat` — 本地已删除
+- ❌ 删除远端 `旧版/下载.bat` — 本地已删除
+结果：成功 — 下载 0，上传 57，删除本地 0，删除远端 194，冲突 23

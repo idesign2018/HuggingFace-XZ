@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<!--
+  ┌──────────────────────────────────────────────────────────────┐
+  │  关于软件 —— 版本说明、致谢、使用条款，随你自己加              │
+  │  版本号本身在 webui\core\version.py 里改（VERSION / BUILD_DATE）│
+  │  改完保存，关掉“关于软件”窗口再点开就能看到。                  │
+  └──────────────────────────────────────────────────────────────┘
+-->
+<style>
+  :root { --text: #151a21; --sub: #5a6470; --muted: #8a929e;
+          --line: #e4e8ed; --soft: #f7f8fa; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: #fff; color: var(--text); padding: 4px 2px 10px;
+         font: 12.5px/1.8 "Microsoft YaHei UI", "Microsoft YaHei", "Segoe UI", system-ui, sans-serif; }
+  h2 { font-size: 12.5px; letter-spacing: .3px; color: var(--sub); font-weight: 700;
+       margin: 14px 0 6px; padding-bottom: 5px; border-bottom: 1px solid var(--line); }
+  h2:first-child { margin-top: 4px; }
+  p { margin: 6px 0; }
+  ul { margin: 6px 0; padding-left: 20px; }
+  li { margin: 2px 0; }
+  code { font-family: Consolas, "Cascadia Mono", monospace; background: var(--soft);
+         padding: 1px 5px; border-radius: 4px; font-size: 12px; }
+  .ver { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .dim { color: var(--sub); }
+</style>
+</head>
+<body>
+
+  <h2>这个软件是做什么的</h2>
+  <p class="dim">网页界面的 Hugging Face 下载器：常规下载走官方 <code>huggingface_hub</code>，有逐文件进度和断点续传；
+     批量下载可以列出仓库里的全部文件、按条件筛选勾选，再交给 IDM 或 aria2 多线程下载。支持国内镜像、Token、历史记录。</p>
+
+  <h2>版本说明</h2>
+  <p class="ver">v1.0.0 · 2026-11-24</p>
+  <ul>
+    <li>常规下载、批量下载两个页面，共用一份配置和 Token</li>
+    <li>批量页支持筛选（后缀 / 文件名 / 路径 / 大小 / 排除）、即时预览、实时勾选</li>
+    <li>推送到 IDM、用 aria2 下载、转常规下载、导出 CSV / aria2 任务 / URL 列表</li>
+    <li>提示改为右下角通知，不打断操作；打开文件后窗口自动置前</li>
+    <li>后台随窗口在线，关窗口才退出；启动失败会写日志并弹提示</li>
+  </ul>
+  <!-- 以后每个版本在这里加一段即可：
+  <p class="ver">v1.0.1 · 2026-12-01</p>
+  <ul><li>修复……</li></ul>
+  -->
+
+  <h2>致谢</h2>
+  <ul>
+    <li>Hugging Face 及其 <code>huggingface_hub</code> 项目</li>
+    <li>hf-mirror.com 提供的国内镜像</li>
+    <li>aria2、Internet Download Manager</li>
+    <li>以及所有反馈问题和提建议的朋友</li>
+  </ul>
+
+  <h2>使用条款</h2>
+  <p class="dim">本软件免费提供，仅用于下载你有权访问的模型和数据集，请遵守 Hugging Face 的服务条款以及各模型自身的许可协议。
+     下载内容的使用范围与版权归原作者所有，本软件不提供任何形式的担保。</p>
+
+</body>
+</html>

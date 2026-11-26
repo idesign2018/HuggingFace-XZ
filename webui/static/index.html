@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="hfd-key" content="__HFD_KEY__">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hugging Face 模型极速下载器</title>
+<link rel="stylesheet" href="/static/css/app.css?v=__HFD_VER__">
+</head>
+<body>
+<div class="app">
+  <!-- ============ 第一栏：导航 ============ -->
+  <nav class="rail">
+    <div class="logo" title="Hugging Face 模型极速下载器">HF</div>
+    <button class="nav active" data-tab="basic" data-tip="常规下载（多线程分段 · 断点续传）">
+      <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg><span>常规</span></button>
+    <button class="nav" data-tab="batch" data-tip="批量下载（IDM / aria2）">
+      <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10M18 15v6m-3-3 3 3 3-3"/></svg><span>批量</span></button>
+    <div class="rail-fill"></div>
+    <button class="nav" id="nav-src" data-tip="下载源：国内镜像（直连）/ 官方（自动走代理）· 两个页面共用">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.4 2.3 3.6 5.1 3.6 8.5s-1.2 6.2-3.6 8.5M12 3.5C9.6 5.8 8.4 8.6 8.4 12s1.2 6.2 3.6 8.5"/></svg><span id="nav-src-txt">镜像</span></button>
+    <button class="nav" id="nav-more" data-tip="更多：说明 / 关于作者 / 关于软件">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="5.6" r="1.75" fill="currentColor"/><circle cx="12" cy="12" r="1.75" fill="currentColor"/><circle cx="12" cy="18.4" r="1.75" fill="currentColor"/></svg><span>更多</span></button>
+    <button class="nav" id="nav-token" data-tip="去官网创建 Token">
+      <svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9m-3 3 3 3m-6 0 2 2"/></svg><span>Token</span></button>
+    <div class="conn-dot" id="conn-dot" title="已连接后台"></div>
+  </nav>
+
+  <!-- ============ 页面 1：常规下载 ============ -->
+  <section class="page active" id="page-basic">
+    <aside class="side">
+      <header class="side-h"><div class="h-title">常规下载</div><div class="h-sub">多线程分段下载 · 断点续传 · 独立进程</div></header>
+      <div class="side-b">
+        <label class="f">仓库 ID<input id="b-repo" spellcheck="false" placeholder="用户名/仓库名，也可以粘贴网页地址"></label>
+        <label class="f">文件名 / 通配符<input id="b-pattern" spellcheck="false" placeholder="可选，如 *.safetensors；留空下载全部"></label>
+        <label class="f">保存路径<span class="ig"><input id="b-path" spellcheck="false"><button id="b-browse" class="ghost">浏览</button></span></label>
+        <label class="f">HF Token<span class="ig"><input id="b-token" type="password" spellcheck="false" autocomplete="off" placeholder="受限模型必填；批量页共用">
+          <button id="b-token-eye" class="ghost">显示</button></span>
+          <button id="b-token-link" class="link">去官网创建 Token →</button></label>
+        <div class="group">
+          <label class="sw"><input type="checkbox" id="b-nosym"><i></i>下载真实文件（不使用软链接）</label>
+          <label class="sw" title="hf_xet 多连接并发：速度可能更快，但 CPU / 内存占用明显更高">
+            <input type="checkbox" id="b-highperf"><i></i>hf_xet 高性能模式</label>
+          <div class="f duo">
+            <label class="f row" title="同时下载几个文件（1~16，按网络和硬盘情况调）&#10;总连接数 = 同时下载文件数 × 每文件连接数">同时下载<input type="number" id="b-workers" min="1" max="16" class="num"></label>
+            <label class="f row" title="每个文件同时开几条连接（1~16）：大文件自动切成小块并行下载，单条连接卡住会自动重连续传&#10;1 = 单连接；最大 16，和 aria2 的上限一致&#10;总连接数 = 同时下载文件数 × 每文件连接数">每文件连接<input type="number" id="b-threads" min="1" max="16" class="num"></label>
+          </div>
+        </div>
+      </div>
+      <footer class="side-f">
+        <button id="b-start" class="primary block">开始下载</button>
+        <div class="two"><button id="b-stop" disabled>停止</button>
+          <button id="b-kill" class="danger" disabled title="直接结束下载进程，正在下载的文件下次开始时自动续传">立即中止</button></div>
+        <div class="hint" id="b-hint">下载在独立进程中进行，界面不会被下载拖慢</div>
+      </footer>
+    </aside>
+    <main class="work">
+      <header class="work-h">
+        <div><div class="h-title" id="b-title">下载进度</div><div class="h-sub src-tag" id="b-source" hidden></div></div>
+        <label class="sw small"><input type="checkbox" id="b-hide-done"><i></i>隐藏已完成</label>
+      </header>
+      <div class="stats" id="b-stats">
+        <div class="stat"><b id="bs-files">—</b><span>文件</span></div>
+        <div class="stat"><b id="bs-size">—</b><span>已下载 / 总大小</span></div>
+        <div class="stat"><b id="bs-speed">—</b><span>速度</span></div>
+        <div class="stat"><b id="bs-eta">—</b><span id="bs-eta-l">剩余时间</span></div>
+        <div class="stat"><b id="bs-time">—</b><span>已用时间</span></div>
+      </div>
+      <div class="pbar big"><div class="fill" id="b-total-bar"></div></div>
+      <div class="total" id="b-total">尚未开始下载。</div>
+      <div class="vlist tbl-basic" id="b-list" tabindex="0">
+        <div class="vl-head"><div class="c" id="b-head-chk" title="全部勾选 / 全部取消（勾选后，左侧“开始下载 / 停止 / 立即中止”只作用于勾选的文件）"><span class="ck" id="b-head-ck"></span></div>
+          <div>文件</div><div>进度</div><div class="r">已下载 / 总大小</div><div class="r">实时速度</div><div class="c">状态</div></div>
+      </div>
+      <div class="list-ops">
+        <span class="muted" id="b-hist-count"></span>
+        <span class="sep"></span>
+        <span class="info small" id="b-checked" hidden></span>
+        <button class="mini ghost" id="b-clear-done" title="只清除列表中已完成的记录，不删除文件">清除已完成</button>
+        <button class="mini ghost" id="b-clear-all" title="清除全部记录（正在下载的除外），不删除文件">清除全部历史</button>
+        <button class="mini ghost" id="b-remove" disabled title="把勾选的文件从列表中移除，不删除硬盘上的文件（先在列表首列勾选文件）">从列表移除</button>
+        <button class="mini ghost danger" id="b-remove-del" disabled title="把勾选的文件从列表中移除，同时删除硬盘上已下载的文件（会先确认，防止误删）">移除并删除本地文件</button>
+        <span class="grow"></span>
+        <span class="muted small">点首列勾选（可批量操作）· 单击选中 · Ctrl/Shift 多选 · 空格勾选 · 右键打开菜单 · 双击打开 · Del 移除</span>
+      </div>
+      <section class="logbox">
+        <header><span>运行日志</span><button class="mini ghost" id="b-log-toggle">收起</button><button class="mini ghost" id="b-log-clear">清空</button></header>
+        <div class="log" id="b-log"></div>
+      </section>
+    </main>
+  </section>
+
+  <!-- ============ 页面 2：批量下载 ============ -->
+  <section class="page" id="page-batch">
+    <aside class="side">
+      <header class="side-h"><div class="h-title">仓库</div><div class="h-sub">每个仓库分别勾选文件，最后一起下载</div></header>
+      <div class="side-add">
+        <input id="t-repo" data-s="repo_input" spellcheck="false" placeholder="仓库ID / 网页地址，多个用空格分隔">
+        <div class="ig">
+          <select data-s="repo_type" title="类型"><option>model</option><option>dataset</option><option>space</option></select>
+          <input data-s="revision" spellcheck="false" title="分支" placeholder="分支">
+        </div>
+        <div class="two"><button id="t-add" class="primary act">添加并获取</button><button id="t-import" class="act">导入任务…</button></div>
+      </div>
+      <div class="side-list" id="t-repos" tabindex="0"></div>
+      <footer class="side-f row3">
+        <button id="t-refresh-sel" class="act ghost" title="刷新选中的仓库">刷新选中</button>
+        <button id="t-refresh-all" class="act ghost" title="刷新全部仓库">刷新全部</button>
+        <button id="t-remove" class="act ghost danger" title="从列表中移除选中的仓库">移除</button>
+      </footer>
+    </aside>
+    <main class="work">
+      <header class="work-h">
+        <div>
+          <div class="h-title" id="t-title">全部仓库</div>
+          <div class="h-sub" id="t-summary">尚未添加仓库。</div>
+        </div>
+        <div class="h-acts">
+          <select id="t-view" title="显示哪个仓库的文件"><option value="">全部仓库</option></select>
+          <span id="t-busy" class="busy" hidden>正在处理…</span>
+        </div>
+      </header>
+
+      <div class="savebar">
+        <span class="lbl">保存到</span>
+        <input data-s="root" spellcheck="false" class="grow">
+        <button id="t-root-browse" class="ghost">浏览</button>
+        <button id="t-root-new" class="ghost">新建文件夹</button>
+        <button id="t-root-open" class="ghost">打开</button>
+        <label class="sw small" title="每个仓库自动新建一个以仓库命名的文件夹（如 Sentinel7_h3），多仓库时强烈建议勾选">
+          <input type="checkbox" data-s="auto_subdir"><i></i>按仓库建文件夹</label>
+      </div>
+      <div class="target" id="t-target"></div>
+
+      <div class="filter">
+        <div class="search">
+          <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="t-q" data-f="q" spellcheck="false" placeholder="筛选：.safetensors  fp16  dir:vae  >1GB  -.md   （点 ? 查看写法）">
+          <select id="t-preset" title="常用类型"><option value="">常用类型</option></select>
+          <button id="t-q-help" class="ghost icon" title="筛选写法">?</button>
+          <button id="t-filter-clear" class="ghost icon" title="清空条件">×</button>
+        </div>
+        <div class="chips" id="t-chips"></div>
+        <div class="frow">
+          <button class="primary" data-filter="set">只勾选符合的</button>
+          <button data-filter="add">追加勾选</button>
+          <button data-filter="remove">取消勾选符合的</button>
+          <span id="t-preview" class="muted"></span>
+          <span class="grow"></span>
+          <label class="sw small" title="开启后，输入筛选条件时自动“只勾选符合的”（清空条件 = 全部勾选）">
+            <input type="checkbox" data-s="live_filter"><i></i>实时勾选</label>
+          <label class="sw small"><input type="checkbox" data-s="skip_existing"><i></i>跳过本地已存在且大小一致的文件</label>
+        </div>
+      </div>
+
+      <div class="vlist tbl-batch" id="t-list" tabindex="0">
+        <div class="vl-head"><div class="c clickable" id="t-head-chk" title="全部勾选 / 全部取消">下载</div><div>仓库</div><div>HF 路径</div>
+          <div class="r">大小</div><div>本地保存路径（双击修改）</div><div>状态</div></div>
+      </div>
+      <div class="listbar">
+        <button class="ghost" data-check="all_on">全选</button>
+        <button class="ghost" data-check="all_off">全不选</button>
+        <button class="ghost" data-check="invert">反选</button>
+        <button class="ghost" data-check="check">勾选选中行</button>
+        <button class="ghost" data-check="uncheck">取消选中行</button>
+        <span class="sep"></span>
+        <button class="ghost" id="t-chdir">选中项改目录…</button>
+        <button class="ghost" id="t-reset">恢复默认路径</button>
+        <span class="sep"></span>
+        <button class="ghost" id="t-export-csv">导出 CSV</button>
+        <button class="ghost act" id="t-import-csv">导入 CSV</button>
+        <span class="grow"></span>
+        <span class="muted small">单击选中 · Ctrl/Shift 多选 · Ctrl+A 全选 · 空格切换勾选</span>
+      </div>
+
+      <div class="dlbar">
+        <div class="dl-total" id="t-dl-total"></div>
+        <div class="dl-main">
+          <button id="t-push-idm" class="primary act">推送到 IDM</button>
+          <button id="t-aria2" class="act">用 aria2 下载</button>
+          <button id="t-to-basic" class="act" title="把勾选的文件发送到“常规”页，用 huggingface_hub 下载并自动开始（每个文件都有进度，支持断点续传）">用常规下载</button>
+          <button id="t-stop" class="danger">停止</button>
+          <span class="sep"></span>
+          <button id="t-export-aria2" class="ghost act">导出 aria2 任务</button>
+          <button id="t-export-urls" class="ghost act">导出 URL 列表</button>
+          <button id="t-aria2-opts" class="ghost">aria2 高级设置</button>
+          <span class="grow"></span>
+          <label class="f row small">同时下载<input type="number" data-s="concurrency" min="1" max="16" class="num" title="用于受限仓库的临时直链模式和 aria2"></label>
+          <label class="sw small"><input type="checkbox" data-s="auto_start"><i></i>推送后自动开始 IDM 队列</label>
+          <label class="sw small" title="开启后，“用常规下载”不再弹出确认框，直接开始"><input type="checkbox" data-s="skip_basic_confirm"><i></i>用常规下载时不再确认</label>
+        </div>
+        <div class="dl-paths">
+          <span class="lbl">IDM</span><input data-s="idm_path" spellcheck="false" placeholder="IDMan.exe"><button id="t-idm-browse" class="ghost">浏览</button>
+          <span class="lbl">aria2c</span><input data-s="aria2_path" spellcheck="false" placeholder="aria2c.exe"><button id="t-aria2-browse" class="ghost">浏览</button>
+        </div>
+      </div>
+
+      <section class="logbox">
+        <header><span>运行日志</span><button class="mini ghost" id="t-log-toggle">收起</button><button class="mini ghost" id="t-log-clear">清空</button></header>
+        <div class="log" id="t-log"></div>
+      </section>
+    </main>
+  </section>
+</div>
+
+<div id="modals"></div>
+<div id="toasts" class="toasts"></div>
+<script src="/static/js/core.js?v=__HFD_VER__"></script>
+<script src="/static/js/ui/notice.js?v=__HFD_VER__"></script>
+<script src="/static/js/ui/menu.js?v=__HFD_VER__"></script>
+<script src="/static/js/ui/more.js?v=__HFD_VER__"></script>
+<script src="/static/js/ui/source.js?v=__HFD_VER__"></script>
+<script src="/static/js/basic/menu.js?v=__HFD_VER__"></script>
+<script src="/static/js/basic/basic.js?v=__HFD_VER__"></script>
+<script src="/static/js/batch/menu.js?v=__HFD_VER__"></script>
+<script src="/static/js/batch/batch.js?v=__HFD_VER__"></script>
+<script src="/static/js/batch/batch_ui.js?v=__HFD_VER__"></script>
+<script src="/static/js/main.js?v=__HFD_VER__"></script>
+</body>
+</html>

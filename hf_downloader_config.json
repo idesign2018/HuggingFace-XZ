@@ -1,7 +1,7 @@
 {
   "token": "",
-  "repo_id": "Sentinel7/h3",
-  "local_dir": "F:\\Meta\\models\\loras\\H3-NSFW",
+  "repo_id": "",
+  "local_dir": "F:\\Meta\\models\\loras",
   "use_mirror": true,
   "idm_repo_id": "Sentinel7/h3",
   "idm_repo_type": "model",
@@ -26,17 +26,7 @@
   "idm_f_unit": "MB",
   "idm_repos": [
     [
-      "Sentinel7/h3",
-      "model",
-      "main"
-    ],
-    [
       "Felldude/MiniMaxImage_hdr_diffusers_vae",
-      "model",
-      "main"
-    ],
-    [
-      "SulphurAI/Sulphur-3",
       "model",
       "main"
     ],
@@ -57,11 +47,6 @@
     ],
     [
       "MiniMaxAI/MiniMax-H3-Image",
-      "model",
-      "main"
-    ],
-    [
-      "supermansundies/Minimax-H3-Image-Pose-Transfer-Lora",
       "model",
       "main"
     ]
